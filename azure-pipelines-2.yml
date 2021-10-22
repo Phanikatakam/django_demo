@@ -3,7 +3,7 @@ trigger:
 jobs:
 - job: 'django_basic'
   pool:
-    vmImage: 'Ubuntu-16.04'
+    vmImage: 'Ubuntu-latest'
   strategy:
     matrix:
       Python36:
